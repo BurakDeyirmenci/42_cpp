@@ -1,52 +1,45 @@
-# cub3D Projesi
+# 42 Istanbul CPP Modülleri
+42 Istanbul'da sunulan CPP (C++) modüllerinin kısa bir özetini içermektedir. Her bir modül, öğrencilere C++ dilindeki temel konuları ve kavramları öğretmeyi amaçlamaktadır. Her modül, belirli bir konuya odaklanır ve öğrencilerin hem teorik anlayışlarını geliştirmelerine hem de uygulamalı becerilerini artırmalarına yardımcı olur.
 
-## İçindekiler
+## Modül Listesi
 
-I. [Önsöz](https://chat.openai.com/c/29e225f6-4f09-474a-bf35-4ca90493cd4e#%C3%B6ns%C3%B6z)  
-II. [Hedefler](https://chat.openai.com/c/29e225f6-4f09-474a-bf35-4ca90493cd4e#hedefler)  
-III. [Genel Talimatlar](https://chat.openai.com/c/29e225f6-4f09-474a-bf35-4ca90493cd4e#genel-talimatlar)  
-IV. [Zorunlu Kısım - cub3D](https://chat.openai.com/c/29e225f6-4f09-474a-bf35-4ca90493cd4e#zorunlu-k%C4%B1s%C4%B1m---cub3d)  
-V. [Bonus Kısım](https://chat.openai.com/c/29e225f6-4f09-474a-bf35-4ca90493cd4e#bonus-k%C4%B1s%C4%B1m)  
-VI. [Örnekler](https://chat.openai.com/c/29e225f6-4f09-474a-bf35-4ca90493cd4e#%C3%B6rnekler)
-
----
-
-## Önsöz
-
-Bu proje, dünyaca ünlü Wolfenstein 3D oyunundan esinlenilerek oluşturulmuştur. İlk FPS oyunu olarak tarihe geçen Wolfenstein 3D, birçok oyun geliştiricisi için ilham kaynağı olmuştur. Bu projede, Ray-Casting (Işın Takibi) yöntemini kullanarak birinci şahıs bakış açısına sahip bir labirent oyunu geliştireceksiniz.
-
-## Hedefler
-
-Bu projenin hedefleri şunlardır:
-
-- C programlama dili ve temel algoritmaları kullanarak gelişim sağlamak.
-- Grafik tasarım alanında miniLibX kütüphanesini kullanarak ilerleme kaydetmek.
-- Matematiği ve algoritmaları eğlenceli bir oyun geliştirme sürecinde pratiğe dönüştürmek.
-
-## Genel Talimatlar
-
-- Projeleriniz C programlama dilinde yazılmalıdır.
-- Yazdığınız kodlar Norm'a uygun olmalıdır.
-- Tanımlanmamış davranışlar dışında programlarınız beklenmedik şekilde sonlanmamalıdır.
-- Hafıza yönetimi konusunda dikkatli olunmalı ve bellek sızıntıları önlenmelidir.
-- Makefile dosyanızı oluştururken gerekli flag'leri kullanmalısınız.
-- Test programları yazmanız önerilir ancak zorunlu değildir.
-- Çalışmalarınızı atanmış olan git repolarına yüklemelisiniz.
-
-## Zorunlu Kısım - cub3D
-
-- Program adı: cub3D
-- Teslim edilecek dosyalar: Tüm kaynak dosyaları, Makefile
-- Argümanlar: *.cub formatında bir harita dosyası
-- Harici fonksiyonlar: open, close, read, write, printf, malloc, free, perror, strerror, exit ve Math kütüphanesi fonksiyonları
-- Libft kullanımı: Evet
-- Açıklama: Birinci şahıs bakış açısıyla bir labirentin içinde "gerçekçi" bir 3D grafik gösterimi oluşturulmalıdır.
-
-## Bonus Kısım
-
-- Bonuslar, zorunlu bölümün mükemmel olması durumunda değerlendirilecektir.
-- Bonuslar arasında duvar çarpmaları, mini harita sistemi, açılıp kapanabilen kapılar, animasyonlu spritelar, ve mouse yardımıyla bakış açısını değiştirme gibi özellikler bulunmaktadır.
-
-## Örnekler
-
-- Proje geliştirme sürecinde ilham alabileceğiniz örnekler sunulmuştur. Bunlar arasında orijinal Wolfenstein 3D oyunu, zorunlu bölümün bir örneği ve bonus özelliklerin yer aldığı örnekler bulunmaktadır.
+1. **CPP00 - C++ Basics**
+    
+    - C++ dilinin temel yapı taşlarını öğrenme.
+    - Değişkenler, veri türleri, koşullar, döngüler gibi konuları kapsar.
+2. **CPP01 - Memory Allocation**
+    
+    - Bellek yönetimi ve dinamik bellek tahsisi.
+    - `new` ve `delete` anahtar kelimelerinin kullanımı.
+3. **CPP02 - References, Pointers, and Structs**
+    
+    - Referanslar, işaretçiler ve yapılar konusunda derinlemesine bir inceleme.
+    - Bellek adresleme ve işaretçi aritmetiği.
+4. **CPP03 - Inheritance and Polymorphism**
+    
+    - Kalıtım ve çok biçimlilik kavramlarını anlama.
+    - Sanal fonksiyonlar ve soyut sınıflar.
+5. **CPP04 - Subtype Polymorphism, Abstract Classes, Interfaces**
+    
+    - Alt tür çok biçimlilik, soyut sınıflar ve arayüzler.
+    - Temel sınıflar ve türetilmiş sınıflar arasındaki ilişkiler.
+6. **CPP05 - Repetition and Exceptions**
+    
+    - İstisnaların yönetimi ve hata ayıklama.
+    - `try`, `catch` ve `throw` anahtar kelimelerinin kullanımı.
+7. **CPP06 - Casts**
+    
+    - Tür dönüşümleri ve dönüştürme operatörleri.
+    - `static_cast`, `dynamic_cast`, `reinterpret_cast` gibi dönüşüm türleri.
+8. **CPP07 - Templates**
+    
+    - Şablon sınıfları ve şablon fonksiyonları kullanma.
+    - C++ dilinde genel programlama teknikleri.
+9. **CPP08 - STL Containers**
+    
+    - C++ Standart Kütüphanesi (STL) konteyner sınıflarını kullanma.
+    - Vektörler, listeler, haritalar, kuyruklar gibi veri yapıları.
+10. **CPP09 - Iterators**
+    
+    - İteratörlerin kullanımı ve STL algoritmaları.
+    - Konteynerler üzerinde döngüler ve algoritmik işlemler.
